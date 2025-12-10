@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <div class="support-chat-block">
+        Чат Поддрежка
+    </div>
+
+    <header>
+        <div class="catalog">
+            <div class="logo-block">
+                <img class="logo-img" src="https://img.freepik.com/premium-vector/retro-kitchen-design-restaurant-logo_23-2148464114.jpg?semt=ais_hybrid&w=740" alt="">
+                <div class="logo-text-block">
+                    <p class="logo">LOGO</p>
+                    <p class="under-logo" style="color: black;">Лучший ресторан России</p>
+                </div>
+            </div>
+            <nav>
+                <a class="catalog-a" href="#">Главная</a>
+                <a class="catalog-a" href="#">О нас</a>
+                <a class="catalog-a" href="#">Меню</a>
+                <a class="catalog-a" href="#">Вакансии</a>
+            </nav>
+            <div class="number-block">
+                <p class="number">+7 989 483 60 75</p>
+            </div>
+        </div>
+
+        <div class="wellcome-header-block">
+            <div class="wellcome-header-text-block">
+                <h1 class="wellcome-header-text">Joshji Su - японская кухня <br> с душой <br> <p class="wellcome-header-text-p">Авторские суши и роллы, фирменные рамен-супы и сезонные сеты. Современный <br> интерьер, теплая атмосфера, и внимательный сервис</p></h1>
+            </div>
+            <div class="wellcome-header-block-button">
+                <button class="book-table"><a href="#brone-table" style="color: orange  ;">Забронировать столик</a></button>
+                <button class="header-menu-button"><a class="header-menu-a" href="#cart">Меню</a></button>
+            </div>
+        </div>
+
+        <div id="hiden-block">
+            <input type="date" id="date" placeholder="Дата">
+            <input type="text" id="table" placeholder="Название столика">
+          </div>
+    </header>    
+
+
+    <main>
+
+        <section class="faq-section">
+            <h2 class="faq-title">Часто задаваемые вопросы</h2>
+        
+            <div class="faq-tabs">
+                <button class="faq-tab active" data-tab="location">Где мы находимся</button>
+                <button class="faq-tab" data-tab="hours">До скольки открыты</button>
+                <button class="faq-tab" data-tab="vacancies">Есть ли у нас вакансии</button>
+            </div>
+        
+            <div class="faq-content">
+                <div class="faq-panel active" id="location">
+                    <p><strong>📍 Адрес:</strong> г. Москва, ул. Сушичная, д. 48, стр. 2 (м. «Ролловая»)</p>
+                </div>
+        
+                <div class="faq-panel" id="hours">
+                    <p><strong>🕙 Режим работы:</strong></p>
+                    <p>Пн–Чт: 12:00–23:00<br>
+                       Пт–Сб: 12:00–01:00<br>
+                       Вс: 12:00–22:00</p>
+                    <p><small>Последний заказ — за 30 минут до закрытия.</small></p>
+                </div>
+        
+                <div class="faq-panel" id="vacancies">
+                    <p><strong>👥 Вакансии:</strong> Да, мы ищем поваров, официантов и барменов.</p>
+                    <p>Резюме присылайте на: <a href="mailto:jobs@joshjisu.ru">jobs@joshjisu.ru</a></p>
+                </div>
+            </div>
+        </section>        
+
+        <section class="menu-block">
+            <div class="menu-catalog">
+                <button class="menu-button-1">Роллы</button>
+                <button class="menu-button-2">Суши</button>
+                <button class="menu-button-3">Напитки</button>
+                <button class="menu-button-4">Горячие блюда</button>
+            </div>
+
+            <div class="menu-carts">
+                <div id="cart">
+                    <div class="cart-block-img">
+                        <img class="menu-img" src="https://www.newsinfo.ru/image/preview/article/1/7/8/933178_amp.jpeg" alt="">
+                        <div class="cart-block-price-and-title">
+                            <h2 style="padding-left: 7px;">Роллы</h2>
+                            <p class="menu-lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et Impedit inventore nisi ab quibusdam nesciunt sint necessitatibus praesentium veniam</p>
+                        </div>
+                        <div class="price-cart">365 ₽</div>
+                    </div>
+                </div>
+
+                <div id="cart">
+                    <div class="cart-block-img">
+                        <img class="menu-img" src="https://www.newsinfo.ru/image/preview/article/1/7/8/933178_amp.jpeg" alt="">
+                        <div class="cart-block-price-and-title">
+                            <h2 class="title-cart" style="padding-left: 7px;">Роллы</h2>
+                            <p class="menu-lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et Impedit inventore nisi ab quibusdam nesciunt sint necessitatibus praesentium veniam</p>
+                        </div>
+                        <div class="price-cart">365 ₽</div>
+                    </div>
+                </div>
+
+                <div id="cart">
+                    <div class="cart-block-img">
+                        <img class="menu-img" src="https://www.newsinfo.ru/image/preview/article/1/7/8/933178_amp.jpeg" alt="">
+                        <div class="cart-block-price-and-title">
+                            <h2 class="title-cart" style="padding-left: 7px;">Роллы</h2>
+                            <p class="menu-lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et Impedit inventore nisi ab quibusdam nesciunt sint necessitatibus praesentium veniam</p>
+                        </div>
+                        <div class="price-cart">365 ₽</div>
+                    </div>
+                </div>
+
+                <div id="cart">
+                    <div class="cart-block-img">
+                        <img class="menu-img" src="https://www.newsinfo.ru/image/preview/article/1/7/8/933178_amp.jpeg" alt="">
+                        <div class="cart-block-price-and-title">
+                            <h2 class="title-cart" style="padding-left: 7px;">Роллы</h2>
+                            <p class="menu-lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et Impedit inventore nisi ab quibusdam nesciunt sint necessitatibus praesentium veniam</p>
+                        </div>
+                        <div class="price-cart">365 ₽</div>
+                    </div>
+                </div>
+                
+                <div id="cart">
+                    <div class="cart-block-img">
+                        <img class="menu-img" src="https://www.newsinfo.ru/image/preview/article/1/7/8/933178_amp.jpeg" alt="">
+                        <div class="cart-block-price-and-title">
+                            <h2 class="title-cart" style="padding-left: 7px;">Роллы</h2>
+                            <p class="menu-lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et Impedit inventore nisi ab quibusdam nesciunt sint necessitatibus praesentium veniam</p>
+                        </div>
+                        <div class="price-cart">365 ₽</div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section class="brone-table-block">
+            <div id="brone-table">
+                <div class="line-input-block-1">
+                    <input class="input-1" placeholder="Введите имя..." type="text">
+                    <input class="input-1" placeholder="Введите номер..." type="number">
+                </div>
+                <div class="line-input-block-1">
+                    <input class="input-2" placeholder="Коментарий..." type="text">
+                    <input class="input-2" placeholder="Введите номер" type="date">
+                    <input class="input-2"  type="datetime-local">
+                </div>
+                <div class="brone-button-block">
+                    <button class="brone-button">Забронировать !</button>
+                </div>
+                
+                <div class="good-eat-block">
+                    <h1 class="good-eat">
+                        Приятного аппетита !
+                    </h1>
+                </div>
+
+                <div class="brone-support-block">
+                    <a href="#" class="brone-support">Поддрежка</a>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="QR-code-block">
+                <img class="QR-code" src="https://avatars.mds.yandex.net/get-entity_search/5394633/1221698850/S600xU_2x">
+                <p style="font-size: 18px;">Оплачивайте через приложение <br> или на кассе в терминале</p>
+            </div>
+
+            <div class="bye-block">
+                <h1 class="bye">До скорых встречь !</h1>
+            </div>
+
+            <div class="support-footer">
+                <div class="street">
+                    <p>г. Москва ул. Сушичная, д. 48 стр 2</p>
+                    <div class="footer-catalog">
+                        <a style="color: black;" href="">Поддрежка</a>
+                        <a style="color: black;" href="">Вакансии</a>
+                        <a style="color: black;" href="">Сотрудничество</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
